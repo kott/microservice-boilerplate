@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+docker-py = "==1.10.6"
+mock = "==2.0.0"
+pytest = "==3.2.1"
+flake8 = "==3.5.0"
+responses = "==0.10.5"
+
+[packages]
+"backports.ssl-match-hostname" = "*"
+blinker = "==1.4"
+flask = "==1.0.2"
+gevent = "==1.2.2"
+gunicorn = "==19.7.1"
+jsonschema = "==2.6.0"
+requests = "==2.18.4"
+werkzeug = "==0.14.1"
+
+[requires]
+python_version = "3.6"
