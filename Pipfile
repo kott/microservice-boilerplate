@@ -17,7 +17,7 @@ flask = "==1.0.2"
 gevent = "==1.2.2"
 gunicorn = "==19.7.1"
 jsonschema = "==2.6.0"
-requests = "==2.18.4"
+requests = "==2.20.0"
 werkzeug = "==0.14.1"
 
 [requires]
